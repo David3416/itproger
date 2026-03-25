@@ -2,13 +2,10 @@ const express = require('express')
 const app=express()
 
 app.get('/',(req,res)=>{
-    res.send('Tis home page')
+    res.sendFile(__dirname+'/templates/index.html')
 }
 )
-app.get('/about',(req,res)=>{
-    res.send('About####')
-}
-)
+
 
 const PORT = 3000
 const HOST = 'localhost'
