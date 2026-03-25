@@ -13,7 +13,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-"currency-converter-lt": "^1.3.1"
+    "currency-converter-lt": "^1.3.1",
+    "express": "^5.2.1"
   }
 }
-
